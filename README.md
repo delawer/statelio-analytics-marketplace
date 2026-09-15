@@ -17,7 +17,7 @@ The friend needs Codex CLI and a GitHub account that can read the private
 repository. In a terminal, run the following, replacing the repository URL:
 
 ```sh
-codex plugin marketplace add git@github.com:OWNER/statelio-analytics-marketplace.git --ref main
+codex plugin marketplace add git@github.com:delawer/statelio-analytics-marketplace.git --ref main
 codex plugin add analytics-mcp@statelio-private
 ```
 
@@ -46,4 +46,3 @@ Instead of GitHub, the friend can receive this folder and run:
 codex plugin marketplace add /absolute/path/to/statelio-analytics-marketplace
 codex plugin add analytics-mcp@statelio-private
 ```
-
