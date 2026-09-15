@@ -1,0 +1,27 @@
+{
+  "name": "analytics-mcp",
+  "version": "0.1.0",
+  "description": "Connect Codex to a project's read-only Statelio Analytics MCP service.",
+  "author": {
+    "name": "Statelio"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Statelio Analytics MCP",
+    "shortDescription": "Query read-only Statelio product analytics.",
+    "longDescription": "Connect a Statelio project to Codex and analyze events, funnels, retention, revenue, errors, cohorts, and anomalies with read-only MCP tools.",
+    "developerName": "Statelio",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP connection guidance",
+      "Product analytics"
+    ],
+    "defaultPrompt": [
+      "Help me connect this Statelio project to MCP.",
+      "Show me how to analyze a signup funnel in Statelio.",
+      "What can I ask the Statelio Analytics MCP server?"
+    ],
+    "brandColor": "#2563EB"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "statelio": {
+      "type": "http",
+      "url": "https://statelio.com/api/v1/mcp"
+    }
+  }
+}

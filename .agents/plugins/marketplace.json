@@ -1,0 +1,20 @@
+{
+  "name": "statelio-private",
+  "interface": {
+    "displayName": "Statelio Private"
+  },
+  "plugins": [
+    {
+      "name": "analytics-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/analytics-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
